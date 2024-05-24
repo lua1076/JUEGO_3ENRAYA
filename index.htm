@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en raya</title>
+    <script src="juego.js" defer></script>
+    <style>
+        header {
+            text-align: center;
+        }
+        #tablero {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 10px;
+            justify-content: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .casilla {
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            font-size: 70px;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+        <h1>Tres en raya</h1>
+    </header>
+    <div id="tablero">
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+        <div class="casilla"></div>
+    </div>
+    
+</body>
+</html>
